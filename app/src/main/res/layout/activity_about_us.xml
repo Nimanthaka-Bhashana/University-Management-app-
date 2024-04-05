@@ -1,0 +1,289 @@
+<!-- about_us_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgound2"
+    >
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+
+    <TextView
+        android:id="@+id/aboutUsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/aboutUsDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:textColor="@color/white"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Branch 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+               >
+
+                <ImageView
+                    android:id="@+id/branch1Image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/campus1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Colombo Branch"
+                    android:textSize="18sp"
+                    android:paddingStart="16dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <!-- Branch 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+               >
+
+                <ImageView
+                    android:id="@+id/branch2Image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/campus2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Galle Branch"
+                    android:textSize="18sp"
+                    android:paddingStart="16dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+
+            <!-- Branch 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                >
+
+                <ImageView
+                    android:id="@+id/branch3Image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/campus2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kandy Branch"
+                    android:textSize="18sp"
+                    android:paddingStart="16dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <!-- Branch 4-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                >
+
+                <ImageView
+                    android:id="@+id/branch4Image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/campus2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Matara Branch"
+                    android:textSize="18sp"
+                    android:paddingStart="16dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <!-- Branch 5 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                >
+
+                <ImageView
+                    android:id="@+id/branch5Image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/campus2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Negombo Branch"
+                    android:textSize="18sp"
+                    android:paddingStart="16dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+            <!-- Branch 6 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                >
+
+                <ImageView
+                    android:id="@+id/branch6Image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/campus2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jaffna Branch"
+                    android:textSize="18sp"
+                    android:paddingStart="16dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+            <!-- Branch 7 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                >
+
+                <ImageView
+                    android:id="@+id/branch7Image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/campus2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kegalle Branch"
+                    android:textSize="18sp"
+                    android:paddingStart="16dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+            <!-- Branch 8 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                >
+
+                <ImageView
+                    android:id="@+id/branch8Image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/campus2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kottawa Branch"
+                    android:textSize="18sp"
+                    android:paddingStart="16dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+            <!-- Branch 9 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                >
+
+                <ImageView
+                    android:id="@+id/branch9Image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/campus2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Gampha Branch"
+                    android:textSize="18sp"
+                    android:paddingStart="16dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+            <!-- Branch 5 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                >
+
+                <ImageView
+                    android:id="@+id/branch10Image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/campus2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Piliyandala Branch"
+                    android:textSize="18sp"
+                    android:paddingStart="16dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

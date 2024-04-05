@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "147034305439",
+    "firebase_url": "https://colombocitymaincampus-52552-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "colombocitymaincampus-52552",
+    "storage_bucket": "colombocitymaincampus-52552.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147034305439:android:194a762258ad4c59bf43aa",
+        "android_client_info": {
+          "package_name": "com.example.firebaseproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuCAHxRB0VdD_g00wLLhcCLG1sC99tO4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147034305439:android:c23f697859705851bf43aa",
+        "android_client_info": {
+          "package_name": "com.example.mainactivity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuCAHxRB0VdD_g00wLLhcCLG1sC99tO4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
